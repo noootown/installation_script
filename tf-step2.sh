@@ -19,7 +19,7 @@ sleep 10
 
 # cudnn
 echo "install cudnn v5.1"
-cd 
+cd ~
 wget https://raw.githubusercontent.com/noootown/google_drive_downloader/master/get.py
 python get.py --url https://drive.google.com/file/d/1sWBTR_swYSfLHgh31U_i9jiQ250uqDh-
 rm get.py
