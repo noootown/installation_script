@@ -8,8 +8,9 @@ sudo ./cuda_8.0.44_linux-run
 rm ./cuda_8.0.44_linux-run
 
 # add path
-export PATH=/usr/local/cuda-8.0/bin:$PATH
-export LD_LIBRARY_PATH=/usr/lib/nvidia-current:/usr/local/cuda/lib64:/usr/local/cuda/lib:$LD_LIBRARY_PATH
+echo "export PATH=/usr/local/cuda-8.0/bin:$PATH" >> ~/.bashrc
+echo "export LD_LIBRARY_PATH=/usr/lib/nvidia-current:/usr/local/cuda/lib64:/usr/local/cuda/lib:$LD_LIBRARY_PATH" >> ~/.bashrc
+source ~/.bashrc
 
 echo "Check if finish install cuda v8.0"
 cd ~/NVIDIA_CUDA-8.0_Samples/1_Utilities/deviceQuery
