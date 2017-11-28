@@ -1,5 +1,5 @@
 # Installation Script
-This is my installation shell script.
+Here are all my installation shell script.
 
 # Tensorflow
 Install tensorflow by running ```./tf-step1.sh``` and ```./tf-step2.sh```
@@ -8,3 +8,6 @@ To install higher version of tensorflow, you may change the version number in th
 
 ### **IMPORTANT**
 Though the latest CUDA version is 9.0, Tensorflow 1.4.0 only support CUDA v8.0.
+
+# Auto Pull Deploy Git Server (ADPGitServer)
+Install Auto Pull Deploy Git Server by running ```./ADPGitServer.sh```
