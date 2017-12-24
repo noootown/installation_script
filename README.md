@@ -11,3 +11,7 @@ Though the latest CUDA version is 9.0, Tensorflow 1.4.0 only support CUDA v8.0.
 
 # Auto Pull Deploy Git Server (ADPGitServer)
 Install Auto Pull Deploy Git Server by running ```./ADPGitServer.sh```
+
+Run deploy script by  ```./deploy.sh <dir_name>```
+
+Write files that aren't going to be deployed in ```.deployignore```
