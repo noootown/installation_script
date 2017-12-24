@@ -15,3 +15,7 @@ Install Auto Pull Deploy Git Server by running ```./ADPGitServer.sh```
 Run deploy script by  ```./deploy.sh <dir_name>```
 
 Write files that aren't going to be deployed in ```.deployignore```
+
+# Python3 virtualenv
+
+```py3virtualenv.sh```
