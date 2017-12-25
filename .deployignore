@@ -1,6 +1,9 @@
 node_modules
+data
+candle
 idea
 DS_Store
 .deploy_git
 dist
 .gitignore
+.git
